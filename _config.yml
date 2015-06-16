@@ -1,0 +1,1 @@
+exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.markdown"]
