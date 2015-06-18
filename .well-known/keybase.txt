@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/phcrva
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://verynomagic.com
+  * I am phcrva (https://keybase.io/phcrva) on keybase.
+  * I have a public key with fingerprint D370 E7D4 882B 3108 7F4A  F0E9 1636 08DD F5D7 FBF8
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.9"
+        },
+        "key": {
+            "fingerprint": "d370e7d4882b31087f4af0e9163608ddf5d7fbf8",
+            "host": "keybase.io",
+            "key_id": "163608DDF5D7FBF8",
+            "uid": "57fd806030676f17ece830eb90ebc400",
+            "username": "phcrva"
+        },
+        "merkle_root": {
+            "ctime": 1434668046,
+            "hash": "7e9c65c51afc3dbd0dcf2e216c5db2cfedfbdd91b02ababdda29f1fea2dab81a52fdf4792d9cf0b335dd2060658cde95f290ef0fda39a7e5755fb32046bb8648",
+            "seqno": 249220
+        },
+        "service": {
+            "hostname": "verynomagic.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434668098,
+    "expire_in": 157680000,
+    "prev": "3a36d874df552fc8f4389c1a0171b4086771ba306130ee3a88afa588d308bfae",
+    "seqno": 25,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFdUg9MVVUcfiAm+IeYWlgZoyuuIQ+6f9799zKHDF/hFEskYLCe595zDlzhvfu6
+7/GUEZQEKC6QcqEhyxScyNLM0ZrRhjkCy4XlGkIg2Z4i2uaDpoQE2rlGm3W2s/Pv
++33n+8536hfNsYSH7PoiuXvnZvR7yIWbiiXz3Q1ppZSiwxLKXkqpRRpy+8yZG7gQ
+ZacKUYkCvChJ02PdOkRJ27yxsxgr5UeGV9PdBEUniUkyVWY14WYx1tz5yPAYmslF
+QU6kkQhtksQqHENLIrYBTCOZETiBliDEPBSxgiVCWaB7ff+5lXrI6dQg2f0Hn5rq
+4FNFR4rDxBc/POBFDCVaoDlaEAXMiEhFEkcjRSZdtdG0CfQiY9aSp0A1/MBU60JG
+YRFyGrr+0LLq00wAY+NsgiDRNoHoAd4CUiIiWRV4lWcAVjmoQBqqmEUsI6g8VFgV
+I4gVCGVGoVmgADIFrIwZjAALgSIxgGcxxDZRZqGsYlrhOB5ClggWeEmFSOYxS6Ri
+GkPAyUBEvMjzWOFYIkFRJMFmOvWiN906ZWdtMsvSZeba8GsqMnWbjzbrjURS4tZd
+IF9Tk1TdReo8hu7TVb2IHBb4fB676dtX4jHB25HymXOWx6lobkhSezRWhkD/9yay
+ZKXQDo9mIKdmIniRbJJm3oP8hJMDnAAl0UZCJaZVCds4SVYZQDMio9hoSRDJCEhQ
+DAkIcUCSAAa8JEGOlhQM0CNOeSIU5BNOr5bvBr5iA1FlNaHLwywh4ZbH5oaaH9cy
+PyLq39+chR6/n+jpuv1iUZDZM2d6Qcxw5/Ci99cXN1/Mbt+aUuw7WROZ12NUyHvK
+wZ+9d9DYlY7EmeHO7wMv+48+Xe0ozF0+HLGRrbsd6P7J6YoYCZZEBMfrVoROvjHS
+k93pih+dPnXj6mJ75dcLW2ZaLx4bvXX085ll985Iz1r1gWvOqSbteFjHB4t/AE0v
+KNRbCVM57VWjUVe9yWrf/sFFTx0KXZsRuLnSe7p/yTv+T683OeicBfUbD/veDnsv
+ut9KDZUHzq6q/3hb3pqG9Pzzdy+H3wlOjrUE4gbLnctOWxf+Vrmk+mpC+c4H8bGl
+yt4TjsmJton0tZNfnf81beiK3DXSk+l6Mjjw/IL9X8bEr4l5MFEVtrPkmeT86vhf
+vquvi7Z4Vr42lRnR33DPeefEqbnTH/ZUZUXGhYxvj1sxlVndIVzKvrXp1Zzlnfsu
+j4gr2I96s392f4LnxTRubj5Sm33uQOTBgddrm+dd++aJ8SN/HIuP/nawwrevsHUi
+a1d51ZlVkek7zqZDT5S971Jg6Eb4c3k5t3+sS+u7/1f/4YTs1aul6mD/hs7SofVS
+DZ13lz53fKahJbR39/XxTkvayf3tzt25XVtyjZTR2J6MzOQDr8Duu3spT2nL1oMZ
+jW1tSxMTfeu2OOqiyw414oH53Ev354xV9TbPWFuOoJzW8Ynx3UupC7EVYWODmx5U
+VvtjG7bztX8D
+=tO/k
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/phcrva
+
+==================================================================
+

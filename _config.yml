@@ -23,3 +23,4 @@ safe: true
 lsi: false
 
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.markdown"]
+include: [".well-known"]
