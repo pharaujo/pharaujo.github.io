@@ -13,11 +13,11 @@ github_username:  pharaujo
 permalink: /:year/:month/:title.html
 
 # Build settings
-markdown: redcarpet
-#markdown: kramdown
-#kramdown:
-#    input: GFM
-highlighter: pygments
+#markdown: redcarpet
+markdown: kramdown
+kramdown:
+    input: GFM
+#highlighter: pygments
 
 safe: true
 lsi: false
