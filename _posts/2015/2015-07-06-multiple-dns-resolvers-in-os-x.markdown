@@ -4,7 +4,7 @@ title: Multiple DNS resolvers in OS X
 date: '2015-07-06 23:41'
 ---
 
-Lately I've been trying out [consul](https://consul.io) and I love some of its core concepts. One of them is service discovery, which is provided through either a HTTP API or a DNS interface.
+Lately I've been trying out [consul](https://consul.io) and I love some of its core concepts. One of them is service discovery, which is provided through either an HTTP API or a DNS interface.
 
 The DNS interface works well, but it's hard to try out on your own laptop. Sure, you can `dig @<consul_server_ip> -p 8600` but anything else turns out to be difficult.
 
