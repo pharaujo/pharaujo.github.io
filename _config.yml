@@ -7,7 +7,7 @@ author:
 #email: <email>
 description: Musings on vim, distributed systems, monitoring, OS X, Linux and misc.
 baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://verynomagic.com"
 twitter:
   username: phcrva
 github_username:  pharaujo
