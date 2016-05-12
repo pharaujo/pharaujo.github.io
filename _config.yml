@@ -1,13 +1,15 @@
 # Site settings
 title: very nomagic
 fullname: Pedro Araujo
+author:
+    twitter: phcrva
 #job: SRE
 #email: <email>
-description: > # this means to ignore newlines until "baseurl:"
-  Musings on vim, distributed systems, monitoring, OS X, Linux and misc.
+description: Musings on vim, distributed systems, monitoring, OS X, Linux and misc.
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: phcrva
+twitter:
+  username: phcrva
 github_username:  pharaujo
 
 permalink: /:year/:month/:title.html
@@ -19,8 +21,11 @@ kramdown:
     input: GFM
 #highlighter: pygments
 
-safe: true
+#safe: true
 lsi: false
 
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.markdown"]
 include: [".well-known"]
+
+gems:
+    - jekyll-seo-tag
