@@ -34,3 +34,9 @@ gems:
 whitelist:
     - jekyll-seo-tag
     - jekyll-sitemap
+
+social:
+  name: Pedro Araujo
+  links:
+    - https://github.com/pharaujo/
+    - https://twitter.com/phcrva
