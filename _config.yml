@@ -21,12 +21,16 @@ kramdown:
     input: GFM
 #highlighter: pygments
 
-#safe: true
+safe: true
 lsi: false
 
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.markdown"]
 include: [".well-known"]
 
 gems:
+    - jekyll-seo-tag
+    - jekyll-sitemap
+
+whitelist:
     - jekyll-seo-tag
     - jekyll-sitemap
