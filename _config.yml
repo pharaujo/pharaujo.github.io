@@ -29,3 +29,4 @@ include: [".well-known"]
 
 gems:
     - jekyll-seo-tag
+    - jekyll-sitemap
