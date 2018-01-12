@@ -8,6 +8,8 @@ Hi!
 
 I'm Pedro Araujo. I work in Site Reliability at [Blip.pt](http://www.blip.pt).
 
+My journey so far, abbreviated:
+
   - Studied Computer Engineering
   - Did web development for a couple of years
   - Moved to systems administration for a couple of years
