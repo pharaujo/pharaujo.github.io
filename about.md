@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi!
 
-I'm Pedro Araujo. I work in Site Reliability at [Blip.pt](http://www.blip.pt).
+I'm Pedro Araujo. I work in Infrastructure Engineering at [Farfetch](https://www.farfetch.com).
 
 My journey so far, abbreviated:
 
@@ -14,5 +14,6 @@ My journey so far, abbreviated:
   - Did web development for a couple of years
   - Moved to systems administration for a couple of years
   - Had a run at build and automation engineering
-  - Landed in SRE, been doing it for the last 5 years
+  - Did a 6-year stint in SRE
+  - Currently promoting better observability and automation in InfraEng
 
