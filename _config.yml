@@ -27,7 +27,7 @@ lsi: false
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.markdown"]
 include: [".well-known"]
 
-gems:
+plugins:
     - jekyll-seo-tag
     - jekyll-sitemap
 
