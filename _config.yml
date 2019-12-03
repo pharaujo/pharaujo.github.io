@@ -5,7 +5,7 @@ author:
     twitter: phcrva
 #job: SRE
 #email: <email>
-description: Musings on vim, distributed systems, monitoring, OS X, Linux and misc.
+description: Documenting stuff I haven't found anywhere else on the internet
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://verynomagic.com"
 twitter:
