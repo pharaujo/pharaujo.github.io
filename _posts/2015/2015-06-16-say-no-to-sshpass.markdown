@@ -4,19 +4,21 @@ title:  "Say 'No' to sshpass"
 categories: ssh sshpass ansible
 ---
 
+_December 3, 2019: updated post to work on macOS 10.14_
+
 I recently started fiddling with Ansible. I'm in a position where I see what all the fuss is about, but its quirks still nag me; one of which is the requirement to use `sshpass` for when you don't have your SSH keys in place.
 
 I *really* don't like `sshpass` - mostly because of security concerns - but the end goal of SSH automation is still worth pursuing, I think.
 
-So, this exercise started by being stubborn in believing you could mostly do what `sshpass` does with plain vanilla `ssh`! In fact, I would argue that this might be A Better Way ™, but you're free to disagree. =)
+So, this exercise started by being stubborn in believing you could mostly do what `sshpass` does with plain vanilla `ssh`! In fact, I would argue that this might be A Better Way™, but you're free to disagree. =)
 
 I want to store my passwords in an OS X keychain and have them read straight to `ssh`, so first we'll create a secure keychain for this purpose:
 
 ```bash
 # create a new keychain
-$ security create-keychain -P $HOME/Library/Keychains/test.keychain
+$ security create-keychain -P test.keychain
 # have it lock on sleep or after 5min
-$ security set-keychain-settings -lu -t 300 $HOME/Library/Keychains/test.keychain
+$ security set-keychain-settings -lu -t 300 test.keychain
 ```
 
 OS X command line tools for system management seem to be an after-thought, as I accidentally messed up my keychain search index while researching for this post and could only recover by using the GUI `Keychain Access` app (that might be a story for a later post).
@@ -25,7 +27,7 @@ In any case, securely adding a new password to the keychain doesn't seem possibl
 
 ```bash
 $ security add-generic-password -a <username> -s ldap -w $(pbpaste) \
-           ~/Library/Keychains/test.keychain
+           test.keychain
 ```
 
 The other way you could go about it would be to use the `Keychain Access` app and create the password item there.
@@ -60,7 +62,7 @@ Place the following in `~/bin/askpass`:
 ```bash
 #!/usr/bin/env bash
 /usr/bin/security find-generic-password -a <username> -s ldap -w \
-                  $HOME/Library/Keychains/test.keychain
+                  test.keychain
 ```
 
 and make it executable:
