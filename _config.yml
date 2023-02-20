@@ -10,6 +10,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://verynomagic.com"
 twitter:
   username: phcrva
+mastodon:
+  server: ieji.de
+  username: phcrva
 github_username:  pharaujo
 
 permalink: /:year/:month/:title.html
