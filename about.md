@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi!
 
-I'm Pedro Araujo. I currently work in Cloud Engineering at [SaltPay](https://www.saltpay.co).
+I'm Pedro Araujo. I currently work in Cloud Engineering at [Teya](https://www.teya.com) (née SaltPay).
 
 My journey so far, abbreviated:
 
